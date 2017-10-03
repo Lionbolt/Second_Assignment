@@ -1,0 +1,20 @@
+/** This is a comment that the browser will ignore,
+* Put your CSS code into this file
+*/
+h1{
+  font-family: monospace;
+  /** This ^ Allows for the website to have the h1 in monospace
+  font style.*/
+  font-size: 50px;
+  /** This ^ changes the size of the font to be easily viewed.*/
+  text-shadow: 6px 6px 0px rgba(0,0,0,0.2);
+  /** This ^ creates a text shadow that makes the text feel
+  it is coming at you.*/
+}
+
+h1:hover{
+  color:Blue;
+  background: yellow;
+}
+/** This ^ makes it so when your curour goes over the text it will change
+the text color to blue and the background yellow.*/
